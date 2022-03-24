@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário | SA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>S.A</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cmf" id="cmf" class="inputUser" required>
+                    <label for="cmf" class="labelInput">Cadastro Monstro</label>
+                </div>
+                <br>
+                <div class="tooltip">
+                    <i class="icon fa-solid fa-circle-question"></i>
+                    <span>As perguntas abaixo são importantes para encontrarmos a sua porta ideal</span>
+                  </div>
+                <br>
+                <p>Preferência por armário? </p>
+                <input type="radio" id="Sim" name="campo-1" value="Sim" required>
+                <label for="Sim">Sim</label>
+                <br>
+                <input type="radio" id="Não" name="campo-1" value="Não" required>
+                <label for="Não">Não</label>
+                <br><br>
+                <p>Preferência por espaço em baixo da cama da criança?</p>
+                <input type="radio" id="Sim" name="campo-2" value="Sim" required>
+                <label for="Sim">Sim</label>
+                <br>
+                <input type="radio" id="Não" name="campo-2" value="Não" required>
+                <label for="Não">Não</label>
+                <br><br>
+                <p>Marque a frase que se encaixa melhor para você:</p>
+                <input type="radio" id="Positivo" name="campo-3" value="Positivo" required>
+                <label for="Positivo">Me considero um monstro assustador, tenho facilidades com sustos!</label>
+                <br>
+                <input type="radio" id="MeioTermo" name="campo-3" value="MeioTermo" required>
+                <label for="MeioTermo">Meio termo, sou bom em tirar gritos mas nem sempre.</label>
+                <br>
+                <input type="radio" id="Negativo" name="campo-3" value="Negativo" required>
+                <label for="Negativo">Nem um pouco, me considero zero assustador.</label>
+                <br><br><br>
+                <input type="radio" id="regra" name="regra" value="regra" required>
+                <label for="regra">Concordo com todas as regras para seguir ao entrar na porta.</label>
+                <br><br>
+                <input type="submit" name="submit" id="submit" value="Gerar porta">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
